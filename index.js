@@ -2,4 +2,6 @@ var recipes = {
   breakfast: 'italian',
 };
 
-Object.assign({},recipes, {dinner: 'french'});
+function updateObjectWithKeyAndValue(object, key, value) {
+  Object.assign({})
+}
