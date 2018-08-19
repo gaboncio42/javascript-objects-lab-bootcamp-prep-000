@@ -3,4 +3,6 @@ var recipes = {
   lunch: 'spanish',
 };
 
-function updateObjectWithKeyAndValue()
+function updateObjectWithKeyAndValue(recipes, dinner, french) {
+  recipes[dinner] = "french";
+}
