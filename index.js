@@ -5,4 +5,5 @@ var recipes = {
 
 function updateObjectWithKeyAndValue(recipes, dinner, french) {
   recipes[dinner] = "french";
+  return recipes;
 }
