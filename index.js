@@ -4,6 +4,5 @@ var recipes = {
 };
 
 function updateObjectWithKeyAndValue(recipes, dinner, french){
-  Object.assing({},recipes,{dinner:'french'});
-  return recipes;
+  
 }
