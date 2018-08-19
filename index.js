@@ -3,6 +3,4 @@ var recipes = {
   lunch: 'spanish',
 };
 
-function updateObjectWithKeyAndValue(object, key, value){
-  return Object.assign({},recipes, {dinner: 'french'});
-}
+Object.assign({},recipes, {dinner: 'french'});
